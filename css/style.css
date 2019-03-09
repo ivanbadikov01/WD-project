@@ -1,0 +1,68 @@
+#nav {
+	background-color: #172131;
+}
+
+body {
+	background-color: #CFE1FC;
+}
+
+.text-holder {
+	background-color: #F3F3F3;
+	border-radius: 25px;
+	padding: 20px; 
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #172131;
+  color: white;
+  display: inline;
+}
+
+.text {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.social-media {
+	float:right;
+}
+
+.pic{
+	width: 32px;
+	height: 32px;
+}
+
+#cards {
+	margin: ;
+}
+
+#copyright {
+	margin-left: 15%
+}
+
+#banner {
+	text-align: center;
+}
