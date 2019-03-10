@@ -1,3 +1,6 @@
-$("#kur").click(function (){
-	console.log
-})
+$(document).ready(function () {
+	$("#kur").click(function (event){
+		event.preventDefault();
+		console.log("kur");
+	});
+});
