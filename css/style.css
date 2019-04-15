@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #CFE1FC;
+	background-color: #e8eff9;
 }
 
 .text-holder {
@@ -55,14 +55,34 @@ body {
 	height: 32px;
 }
 
-#cards {
-	margin: ;
-}
-
 #copyright {
-	margin-left: 15%
-}
+	margin-left: 15%;
+ }
 
 #banner {
 	text-align: center;
+  background: white;
+}
+
+#banner-image {
+  width: 100%;
+}
+
+#add {
+  background-color: #d5dce8;
+  color: black;
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 35px;
+}
+
+input[type=text] {
+  border: 1px solid #d1d4d6;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+#desc {
+  width: 50%;
+  height: 500px;
 }
