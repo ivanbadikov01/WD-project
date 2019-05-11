@@ -16,6 +16,6 @@ $(document).ready(function (){
 	});
 
 	$("#overlay").click(function (){
-		$(this).fadeOut();
+		$(this).fadeOut(1000);
 	});
 });

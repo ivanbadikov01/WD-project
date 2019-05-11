@@ -2,9 +2,6 @@
 	background-color: #172131;
 }
 
-body {
-	background-color: #e8eff9;
-}
 
 .text-holder {
 	background-color: #F3F3F3;
@@ -85,4 +82,70 @@ input[type=text] {
 #desc {
   width: 50%;
   height: 500px;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.arrow_button {
+  background-color: rgb(255,255,255, 0.3);
+  border-color: rgb(0,0,0,0);
+  height: 720px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.arrow_button:hover {
+  background-color: rgb(255,255,255,0.45);
+}
+
+.arrow_button:focus {
+  outline: none;
+}
+
+#movingGallery {
+  background-image: url('../pictures/cat2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #edf1f2;
+}
+
+#right {
+  position: relative;
+  float: right;
+}
+
+#galleryHeading {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  margin-top: 30%;
+  margin-left: 1%;
+  background-color: rgb(224,224,224, 0.7);
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  text-align: center;
+ }
+
+
+#galleryText {
+  display: table;
+  position: absolute;
+  font-size: 25px;
+  background-color: rgb(224,224,224, 0.7);
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  text-align: center;
+}
+
+#readMore {
+  margin-right: 5%;
+  margin-top: 35%;
+  float: right;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb();
 }
