@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var position = $(window).scrollTop();
     var dimmer = $("#dimmer");
-    var opac = 0.2;
+    var opac = 0.35;
 
 
     $(window).scroll(function() {
@@ -21,7 +21,7 @@ $(document).ready(function() {
         }
 
         if ($(window).scrollTop() == 0) {
-            opac = 0.2;
+            opac = 0.35;
             $(dimmer).fadeTo(300, opac);
             
         }

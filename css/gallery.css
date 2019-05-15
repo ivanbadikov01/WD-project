@@ -5,6 +5,7 @@
     position: relative;
     left: 10%;
     margin-bottom: 0.2%;
+    transition: opacity 0.3s;
 }
 
 #overlay {
@@ -22,4 +23,8 @@
     margin: auto auto;
     height: 80%;
     object-fit: contain;
+}
+
+.gallery-picture:hover {
+    opacity: 0.4;
 }
