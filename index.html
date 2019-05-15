@@ -3,25 +3,26 @@
 
 <head>
     <title>Welcome to my blog.</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Roboto" rel="stylesheet">
     <script type="text/javascript" src="../scripts/movingGallery.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="nav">
-        <a class="navbar-brand text" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" href="#">Cats</a>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <a class="navbar-brand" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" href="#">Cats</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav text">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/posts.html">Posts</a>
@@ -29,27 +30,52 @@
                 <li class="nav-item">
                     <a class="nav-link" href="pages/gallery.html">Pictures</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Best catos</a>
-                </li>
             </ul>
         </div>
     </nav>
     <div id="movingGallery">
-        <button class="arrow_button" id="left"><img src="../pictures/arrow_left.png" class="arrow"></button>
-        <span id="galleryHeading"><b>Meet Neko, one of the cutest cats in Japan.</b>
-            <span id="galleryText">Calico is from Tokyo, Japan and the locals love him!</span>
-        </span>
-        <button class="arrow_button" id="right"><img src="../pictures/arrow_right.png" class="arrow"></button>
-        <button id="readMore">Click here to read more!</button>
-    </div>
-    <div class="footer text">
-        <span id="copyright">Made by Ivan Badikov.</span>
-        <div class="social-media">
-            <a href="https://instagram.com/kotka.addict/" class="ml-3 mr-5"><img class="pic" src="pictures/instagrm.png" id="insta"></a>
-            <a href="https://www.facebook.com/aiwan69" class="ml-3 mr-5"><img class="pic" src="pictures/facebook.png" id="insta"></a>
-            <a href="mailto:ibadikovtues2020@gmail.com" class="ml-3 mr-5"><img class="pic" src="pictures/gmail.png" id="insta"></a>
+        <div class="tb">
+            <div class="tb-row">
+                <div class="tb-cell">
+                    <button class="arrow_button" id="left"><img class="arrow" src="../pictures/arrow_left.png"></button>
+                </div>
+                <div class="tb-cell text">
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="info"><span id="galleryHeading">Meet Neko, the cutest cat in Japan</span>
+                        <p><span id="galleryText">Neko is a favorite among the locals in Tokyo, Japan.</span></p>
+                        <a href="pages/neko.html" class="redirect"><button id="readMore">Read more</button></a>
+                    </div>
+                </div>
+                <div class="tb-cell">
+                    <button class="arrow_button" id="right"><img class="arrow" src="../pictures/arrow_right.png"></button>
+                </div>
+            </div>
         </div>
+    </div>
+    <br>
+    <br>
+    <div class="blogInfo">
+        <span class="heading">Welcome to my blog.</span>
+        <p>This blog is dedicated to cats of all sizes: big, small, chunky, slim, fluffy or hairless! I made it hoping that my teacher would give me an A for the time I spent creating this masterpiece. Right now it's still in a state of development and all the pages are static but in the future I plan on making it more dynamic and better looking.</p>
+        <br>
+        <span class="heading">About me.</span>
+        <p>I am just an ordinary student in TUES, who just like everyone finished his project at the end of the deadline. This is the first of many projects that I have this semester and I hope everything goes well.</p>
+        <br>
+        <div class="me">
+            <img src="/pictures/card2.jpg" alt="me">
+            <span><i>this is me.</i></span>
+        </div>
+        <br>
+        <span class="heading">Contact me.</span>
+        <p>At the bottom right of the page you can find information on how to contact me. <i>/*tursq hora za 33 ako imam 5 na proekta pri stela i pone 3 na testa po analogova*/</i></p>
+    </div>
+    <div class="footer">
+        <span id="copyright">Made by Ivan Badikov.</span>
+        <span class="social-media">
+            <a href="https://instagram.com/kotka.addict/"><img class="pic" src="pictures/instagrm.png"></a>
+            <a href="https://www.facebook.com/aiwan69"><img class="pic" src="pictures/facebook.png"></a>
+            <a href="mailto:ibadikovtues2020@gmail.com"><img class="pic" src="pictures/gmail.png"></a>
+        </span>
     </div>
 </body>
 
